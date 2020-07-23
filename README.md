@@ -72,11 +72,7 @@ $ conda install -c conda-forge ipyvolume
 The Jupyter lab extension is not enabled by default (yet).
 
 ```
-$ conda install -c conda-forge nodejs  # or some other way to have a recent node
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
-$ jupyter labextension install ipyvolume
-$ jupyter labextension install jupyter-threejs
-
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager bqplot ipyvolume
 ```
 
 

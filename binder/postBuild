@@ -2,7 +2,7 @@
 
 set -ex
 
-pip install .
+npm install -g source-map
 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs js --no-build
-jupyter lab build
+pip install --pre ipyvolume
+jupyter labextension install @jupyter-widgets/jupyterlab-manager bqplot ipyvolume
